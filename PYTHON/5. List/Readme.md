@@ -7,3 +7,4 @@
 - `Program 5` Concatenation of list in python using
 - `Program 6` Replication operator (\*)
 - `Program 7` in and not in operator
+- `Program 8` Traversing or iterating over the list
