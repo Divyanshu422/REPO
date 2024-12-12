@@ -6,3 +6,4 @@
 - `Program 4` Modifying the content of list using the slice Operator
 - `Program 5` Concatenation of list in python using
 - `Program 6` Replication operator (\*)
+- `Program 7` in and not in operator
