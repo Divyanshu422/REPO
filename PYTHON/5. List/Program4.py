@@ -32,3 +32,18 @@ print(lst)  # Output: [7, 8, 9]
 lst = [1, 2, 3, 4, 5, 6]
 lst[2:2] = [7, 8]  # Insert at index 2
 print(lst)  # Output: [1, 2, 7, 8, 3, 4, 5, 6]
+
+# Inserting the more elements in the list than removing the element
+lst = [1, 2, 3, 4, 5, 6]
+lst[0:2] = [10, 20, 30, 40, 50]
+print(lst)  # Output: [10, 20, 30, 40, 50, 3, 4, 5, 6 ]
+
+# * Inserting at the odd position
+# lst = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+# lst[::2] = [10, 20, 30]
+# print(lst) #! Output: Error
+
+#  * Correct way: When using a step in slice assignment (e.g., lst[start:end:step]), the number of elements in the slice being replaced must match the number of elements provided for the replacement.
+lst = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+lst[::2] = [10, 20, 30, 40, 50]
+print(lst)  # Output: [10, 2, 20, 4, 30, 6, 40, 8, 50, 10]
