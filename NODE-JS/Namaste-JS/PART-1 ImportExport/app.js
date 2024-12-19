@@ -1,6 +1,6 @@
 // Enter file for the Project
 
-require('./calculateSum.js')
+const calculateSum =  require('./calculateSum.js')
 
 
 var firstName = 'Divyanshu'
