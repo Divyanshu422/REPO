@@ -1,8 +1,9 @@
+import TypographyExample from "./components/TypographyExample";
 
 function App() {
   return (
     <div>
-     <h1> Hello World</h1>
+      <TypographyExample />
     </div>
   );
 }
