@@ -5,8 +5,6 @@
         - Creation of array: literal [] or Array constructor
         - Length property: 'provides the value'
         - typeof property: In javaScript, array are object
-
-
 */
 
 // ! 1. Creation of array using array Constructor
