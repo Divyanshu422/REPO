@@ -9,13 +9,13 @@ const diameter = (radius) => {
   return 2 * radius;
 };
 
-const genericFunction = function (logic, radius) {
+Array.prototype.genericFunction = function (logic) {
   const output = [];
-  for (let r of radius) {
+  for (let r of this) { // Here this means the radius on which generic function is called
     output.push(logic(r));
   }
   return output;
 };
 
-console.log(genericFunction(area, radius));
-console.log(genericFunction(diameter, radius));
+const result = radius.genericFunction(diameter);
+console.log(result)
