@@ -25,3 +25,7 @@ function multiplyFn(x,y){
 }
 
 console.log("The result of multiplication is ", multiplyFn(a, b))
+
+
+
+
